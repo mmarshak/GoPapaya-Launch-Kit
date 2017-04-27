@@ -12,9 +12,6 @@ After that command finishes, your LK instance should be up and running at http:/
 If you're all done using LaunchKit, you can stop the machine by running:
 
 $ vagrant halt
-If you're never going to use LaunchKit again, you can destroy the machine altogether:
-
-$ vagrant destroy
 
 
 Connect to -  http://localhost:9100/
@@ -163,3 +160,8 @@ skit → Our frontend web app and hosted App Websites webservers, based on Skit.
 skit/lk/library → Library code used throughout the LK frontend & hosted frontend.
 skit/lk/public → Code for the public website, located at https://launchkit.io/
 skit/lk/public_hosted → Code for the hosted App Website endpoint, located at http://domains.launchkit.io/
+
+
+If you're never going to use LaunchKit again, you can destroy the machine altogether:
+
+$ vagrant destroy
